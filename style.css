@@ -1,0 +1,114 @@
+*{
+    justify-content: center;
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+
+.card{
+    
+    justify-content: center;
+    min-width: 400px;
+    max-width: 1000px;
+    width: 75%;
+}
+
+
+body{
+    
+    /*background of everything */
+    background-color: hsl(26, 96%, 29%);
+
+/*picture */
+
+}
+
+
+/*Container*/
+.container{
+        display: flex;
+        justify-content: center;
+        height: 500px;
+        width:800px;
+        border: 1px solid rgb(3, 3, 3); 
+        margin:auto;
+        margin-top:70px;
+        box-shadow: 15px 15px 20px black;
+        border-radius:20px;
+       
+}
+
+/*Login form*/
+.form{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    align-items: center;
+    background-color: rgb(174, 145, 106);
+    border-radius:20px;
+}
+/*Join New Terra text*/
+.form h2{
+    /* change text to white color  */
+    
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    margin:40px;
+    outline: rgb(0, 0, 0);
+    
+}
+.box{
+    justify-content: center;
+    padding: 12px;
+    width: 65%;
+    margin: 15px;
+    border:1px solid black;
+    outline: none;
+    border-radius:20px 
+    
+}
+/*this is for the submit button itsef*/
+#submit{
+    padding:12px 30px;
+    width: 40%;
+    margin-top: 40px;
+    background-color: black;
+    color:white;
+    font-weight:bold;
+    border:none;
+    outline:none;
+    border-radius:20px;
+}
+/*this is for hoving  over the submit button */
+#submit:hover{
+    cursor:pointer;
+    background-color: #4504dc;
+}
+ /* this is for the forgot password  */
+.form a{
+    text-decoration:none ;
+    color:rgb(17, 57, 69);
+    margin-top:20px;
+}
+/*hoverover forgot password button */
+.form a:hover{
+    color:#000000;
+}
+
+
+/*right side of box*/
+.side{
+    border-radius:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    background-color:#01015f
+   
+}
+/*Image size*/
+.side img{
+    width: 400px;
+    height: 400px;
+}
