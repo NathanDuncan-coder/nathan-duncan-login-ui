@@ -5,21 +5,13 @@
     box-sizing:border-box;
 }
 
-.card{
-    
-    justify-content: center;
-    min-width: 400px;
-    max-width: 1000px;
-    width: 75%;
-}
-
-
 body{
-    
-    /*background of everything */
+    height:100 vh;
     background-color: hsl(26, 96%, 29%);
+    display: flex;
+        justify-content: center;
+        align-items: center;
 
-/*picture */
 
 }
 
@@ -38,6 +30,13 @@ body{
        
 }
 
+#pwd{
+    -webkit-text-security:  circle;
+}
+    
+
+
+
 /*Login form*/
 .form{
     display: flex;
@@ -45,17 +44,20 @@ body{
     width:50%;
     align-items: center;
     background-color: rgb(174, 145, 106);
-    border-radius:20px;
+    border-radius:20px 0 0 20px;
+    
 }
 /*Join New Terra text*/
 .form h2{
-    /* change text to white color  */
-    
+     
+    color: white;
+
     font-size: 3rem;
     font-family: 'Times New Roman', Times, serif;
-    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     margin:40px;
     outline: rgb(0, 0, 0);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    
     
 }
 .box{
@@ -99,7 +101,7 @@ body{
 
 /*right side of box*/
 .side{
-    border-radius:20px;
+    border-radius: 0px 20px 20px 0px;
     display:flex;
     justify-content: center;
     align-items: center;
